@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+img{
+    width: 35%;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 35%;
+}
+
+p{
+    text-indent: 13px;
+    text-align: justify;
+    white-space: space 0; ;
+}
+
+header{
+    background: linear-gradient(to right, #960083, #ec1063);
+    color: #ffffff;
+    padding-top: 30px;
+    padding-left: 5%;
+    min-height: 70px;
+    border-bottom: 3px solid #ec1063;
+}
+
+header #branding h1{
+    float: left;
+}
+
+header nav{
+    float: right;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-left: 5%;
+}
+
+footer{
+    padding-right: 0%;
+}
