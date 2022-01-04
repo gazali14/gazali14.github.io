@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <title>Pusekesmas Desa Gerak Makmur</title>
+  </head>
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success">
+      <img src="img/buton selatan.png" alt="logo" width="58" height="45">
+      <img src="img/Puskesmas Logo.png" alt="logo" width="58" height="45">
+      <a class="navbar-brand font-weight-bold" href="#"> &nbsp; Puskesmas Desa Gerak Makmur</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="page_pasien.php">Data Pasien</a>
+            <a class="nav-link active" href="#berita" >Berita</a>
+            <a class="nav-link active" href="#profil">Logout</a>
+            </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body style="background-color: rgb(248, 248, 248);">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/BG1.jpeg" class="d-block w-100" alt="">
+        </div>
+        
+    </div>
+  </div>
+    <div id="profil" class="container">
+        <div class="row bg-success text-white mt-5" >
+            <div class="col-4 mt-5">
+                <img style="width: 170px; height: 170px;" src="img/kepala uptd.jpg" alt="">
+            </div>
+            <div class="col-8">
+                <h2 class="text-uppercase mb-4 font-weight-bold mt-5">SELAMAT DATANG DI WEBSITE RESMI PUSKESMAS DESA GERAK MAKMUR</h2>
+                <P>Website ini dibuat untuk mengenalkan Puskesmas Desa Gerak Makmur kepada masyarakat luas. Berisi berbagai macam informasi terkait baik pelayanan maupun kegiatan yang ada di Puskesmas Desa Gerak Makmur.</P>
+                <P>Kami harapkan anda bersedia menghubungi kami baik melalui telepon, email, maupun formulir kontak pada halaman Hubungi Kami untuk memberikan masukan-masukan demi pengembangan pada pelayanan kami. Terima kasih. ANDA SEHAT, KAMI PUAS! <br><br></P>
+                <p style="text-align: right;"><b>Imanuddin</b></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-12 col-xs-12" style="background:#f6f6f6; padding:30px 0px">
+      <div class="container">
+          <div class="col-md-12 col-xs-12 papada" style="">
+              <h1 id="berita" style="font-size:26px;margin-bottom:30px;text-align: center;">Berita Terbaru</h1>
+              <div class="row">
+                    <div class="col-md-3 col-xs-6" style="">
+                      <img class="fofo" src="img/pus1.jpeg" style="width:100%;">
+                        <div style="">
+                            <p style="color:#019966; font-size:14px; padding:10px 22px;"><b>Desa Gerak Makmur Lockdown</b><a link-active href="page_berita.php?id=1"> ...Selengkapnya</a></p>
+                          </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6" style="">
+                      <img class="fofo" src="img/pus3.jpeg" style="width:100%;">
+                        <div style="">
+                            <p style="color:#019966; font-size:14px; padding:10px 22px;"><b>Pelaksanaan program vaksinasi massal oleh.</b><a link-active href="page_berita.php?id=2"> ...Selengkapnya</a></p>
+                          </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6" style="">
+                      <img class="fofo" src="img/pus2.jpeg" style="width:100%;">
+                        <div style="">
+                            <p class="mt-4" style="color:#019966; font-size:14px; padding:10px 22px;"><b>Media Center penanganan Covid-19 Pemerintah Kabupaten</b> <a link-active href="page_berita.php?id=3"> ...Selengkapnya</a></p>
+                          </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6" style="">
+                      <img class="fofo" src="img/pus4.jpeg" style="width:100%;">
+                        <div style="">
+                            <p style="color:#019966; font-size:14px; padding:10px 22px;"><b>Penyemprotan disinfektan di pasar..</b><a link-active href="page_berita.php?id=4"> ...Selengkapnya</a></p>
+                          </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <br><br><br>
+    <div class="container-fluid">
+      <h1 class=" mb-4 " style="font-size:26px;margin-bottom:30px;text-align: center;">Galeri</h1>
+      <div class="row mt-4">
+        <div class="item col-sm-6 col-md-3 mt-3">
+          <a href="img/pus1.jpeg" class="fancybox" data-fancybox="gallery1">
+            <img src="img/pus1.jpeg" width="100%" height="100%">
+          </a>
+        </div>
+        <div class="item col-sm-6 col-md-3 mt-3">
+          <a href="img/pus2.jpeg" class="fancybox" data-fancybox="gallery1">
+            <img src="img/pus2.jpeg" width="100%" height="100%">
+          </a>
+        </div>
+        <div class="item col-sm-6 col-md-3 mt-3">
+          <a href="img/pus3.jpeg" class="fancybox" data-fancybox="gallery1">
+            <img src="img/pus3.jpeg" width="100%" height="100%">
+          </a>
+        </div>
+        <div class="item col-sm-6 col-md-3 mt-3">
+          <a href="img/pus4.jpeg" class="fancybox" data-fancybox="gallery1">
+            <img src="img/pus4.jpeg" width="100%" height="100%">
+          </a>
+        </div>
+        <div class="item col-sm-6 col-md-3 mt-3">
+          <a href="img/pus5.jpeg" class="fancybox" data-fancybox="gallery1">
+            <img src="img/pus5.jpeg" width="100%" height="100%">
+          </a>
+        </div>
+        <div class="item col-sm-6 col-md-3 mt-3">
+          <a href="img/pus6.jpeg" class="fancybox" data-fancybox="gallery1">
+            <img src="img/pus6.jpeg" width="100%" height="100%">
+          </a>
+        </div>
+      </div>
+    </div>
+    <br> <br><br>
+    <!--footer-->
+      <footer
+              class="text-center text-lg-start text-white"
+              style="background-color: #2c2d2e"
+              >
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">
+                  Temukan Kami
+                </h6>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.5128312981437!2d122.75201821405992!3d-5.638670895912485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2da414f0783cff7d%3A0xc30c273d7ac3b43e!2sPuskesmas%20Gerak%20Makmur!5e0!3m2!1sen!2sid!4v1639302017812!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+              <!-- Grid column -->
+
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Berita</h6>
+                <p>
+                  <a href="#" class="text-white">Program Vaksinasi Desember 2021</a>
+                </p>
+                <p>
+                  <a href="" class="text-white">Sosialisasi 6M</a>
+                </p>
+                
+              </div>
+              <!-- Grid column -->
+
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- Grid column -->
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold" >Contact</h6>
+                <p><i class="fas fa-envelope mr-3"></i>uptdgmr@gmail.com</p>
+                <p><i class="fas fa-phone mr-3"></i> 0812 2345 5678</p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+                <!-- Facebook -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #3b5998"
+                  href="https://www.facebook.com/UPTD-Puskesmas-Gerak-Makmur-111558663817730/"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                  ></a>
+
+                <!-- Twitter -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #55acee"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                  ></a>
+
+                <!-- Google -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #dd4b39"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-google"></i
+                  ></a>
+
+                <!-- Instagram -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #ac2bac"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                  ></a>
+
+                <!-- Linkedin -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #0082ca"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                <!-- Github -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #333333"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-github"></i
+                  ></a>
+              </div>
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+            >
+          © 2021 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/"
+            >MDBootstrap.com</a
+            >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    <!-- End of .container -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
