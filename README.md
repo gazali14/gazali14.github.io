@@ -3,6 +3,7 @@
 Sistem Informasi Puskesmas Gerak Makmur merupakan sebuah website sistem informasi yang coba saya buat mengingat bahwa puskesmas di desa Gerak Makmur belum memiliki webisite yang dapat digunakan sebagai platform bagi masyrakat untuk mengetahui informasi terkini tentang kegiatan-kegiatan yang akan atau telah dilaksanakan di lingkungan puskesmas Desa Gerak Makmur.
 
 Framework Web Design : Bootstrap
+
 Language : PHP
 
 Berikut contoh tampilan yang ada pada website tersebut.
